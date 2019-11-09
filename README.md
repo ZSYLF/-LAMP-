@@ -3,6 +3,10 @@ yum install httpd
 
 service httpd start
 
+安装MySQL之前，先将系统上的软件更新
+
+yum update
+
 yum install mysql-server
 
 service mysqld start
@@ -20,5 +24,7 @@ service mysqld start
 <?php
 phpinfo();
 ?>
+
+最后重启apache
 
 service httpd restart 
