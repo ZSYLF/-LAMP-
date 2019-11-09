@@ -21,11 +21,11 @@ service mysqld start
  
 按i键输入下面三行代码，完成后按Esc键，然后打出：wq！退出
 
-{<?php
-
+、、、
+<?php
 phpinfo();
-
-?>}
+?>
+、、、
 
 最后重启apache
 
